@@ -63,7 +63,7 @@ public class Controlador implements ActionListener {
 			} else if (current.equals(Controlador.LOGIN)) {
 				// Creo la ventana para representarlo
 				VentanaUsuario intern = new VentanaUsuario();
-				intern.crearVista();
+				intern.crearVista(current);
 				// Creo el controlador pasando la ventana
 				UserProfileController ic = new UserProfileController(intern);
 				intern.addController(ic);// Le Asociamos el controlador a la

@@ -2,7 +2,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-
 import javax.swing.JOptionPane;
 
 public class UserProfileController implements ActionListener, KeyListener {
@@ -43,7 +42,7 @@ public class UserProfileController implements ActionListener, KeyListener {
 
 	VentanaUsuario ventanaControlada;
 	VentanaPropuestas ventanaPropuestas;
-	VentanaCampaña miVentanaCampaña;
+	VentanaCampaign miVentanaCampaña;
 	VentanaDatosUsuario miVentanaDatosUsuario;
 	Controlador controlador;
 
@@ -55,7 +54,7 @@ public class UserProfileController implements ActionListener, KeyListener {
 		ventanaPropuestas = win;
 	}
 
-	public UserProfileController(VentanaCampaña wun) {
+	public UserProfileController(VentanaCampaign wun) {
 		miVentanaCampaña = wun;
 	}
 

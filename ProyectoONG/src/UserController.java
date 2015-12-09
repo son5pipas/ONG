@@ -49,6 +49,7 @@ public class UserController implements ActionListener, KeyListener {
 	final static String ELIMINAR = "EL";
 
 	VentanaRegistro ventanaControlada;
+	VentanaPrincipal ventanaPrincipal;
 	VentanaLogin miVentana;
 	VentanaAdministrador miVentanaAdmin;
 
@@ -79,17 +80,19 @@ public class UserController implements ActionListener, KeyListener {
 			int respuesta = JOptionPane.showConfirmDialog(ventanaControlada, "¿Seguro?", "¿Seguro?",
 					JOptionPane.YES_NO_OPTION);
 			if (respuesta == JOptionPane.YES_OPTION) {
-				//abrirVentana2(d, fichero);
+				abrirVentana2(d);/*,fichero*/
 			}
 		}
 
 		String a = (String) (e.getActionCommand());
 		if (a == UserController.LOGIN) {
-			String fichero = (String) miVentana.tf.getText();
+			/*String fichero = (String) miVentana.tf.getText();
 			mostrar2("Proceso completado " + fichero);
 			if (fichero.equals("admin")) {
 				abrirVentana(a, fichero);
-			}
+			}else{*/
+				abrirVentana3(a);
+			//}
 		}
 		String b = (String) (e.getActionCommand());
 		if (b == UserController.CANCEL) {
@@ -148,7 +151,7 @@ public class UserController implements ActionListener, KeyListener {
 		}
 	}
 
-	public void abrirVentana2(String cmd, String fichero) {
+	public void abrirVentana2(String cmd) {/*,fichero*/
 		int respuesta = JOptionPane.showConfirmDialog(ventanaControlada, "Seguro?", "Seguro?",
 				JOptionPane.YES_NO_OPTION);
 		if (respuesta == JOptionPane.YES_OPTION) {
@@ -157,15 +160,45 @@ public class UserController implements ActionListener, KeyListener {
 			if (cmd.equals(UserController.REGISTRO)) {
 				// Creo la ventana para representarlo
 				VentanaLogin interna = new VentanaLogin();
-				interna.crearVista(cmd, fichero);
+				interna.crearVista(cmd);/*fichero*/
 				// Creo el controlador pasando la ventana
 				UserController ic = new UserController(interna);
 				interna.addController(ic);// Le Asociamos el controlador a la
 											// ventana
 				ventanaControlada.setVisible(false);
-				interna.tf.setText(fichero);
+				//interna.tf.setText(fichero);
 				// La a�ado a la ventana principal
-				ventanaControlada.getContentPane().add(interna);
+				//ventanaControlada.getContentPane().add(interna);
+				try {
+					// interna.setSelected(true);
+				} catch (Exception e) {
+					System.out.println("Error tratando de seleccionar la ventana:" + e.getMessage());
+					return;
+				}
+				interna.toFront();
+			} else {
+			}
+
+		}
+	}
+	public void abrirVentana3(String cmd) {/*,fichero*/
+		int respuesta = JOptionPane.showConfirmDialog(ventanaControlada, "Seguro?", "Seguro?",
+				JOptionPane.YES_NO_OPTION);
+		if (respuesta == JOptionPane.YES_OPTION) {
+			// Crear Nuevo objeto del Modelo
+			// ***************************** b
+			if (cmd.equals(UserController.LOGIN)) {
+				// Creo la ventana para representarlo
+				VentanaUsuario interna = new VentanaUsuario();
+				interna.crearVista(cmd);/*fichero*/
+				// Creo el controlador pasando la ventana
+				UserProfileController ic = new UserProfileController(interna);
+				interna.addController(ic);// Le Asociamos el controlador a la
+											// ventana
+				miVentana.setVisible(false);
+				//interna.tf.setText(fichero);
+				// La a�ado a la ventana principal
+				//ventanaControlada.getContentPane().add(interna);
 				try {
 					// interna.setSelected(true);
 				} catch (Exception e) {

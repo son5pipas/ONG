@@ -29,7 +29,7 @@ public class VentanaUsuario extends JFrame {
 		});
 	}
 
-	public void crearVista() {
+	public void crearVista(String cmd) {
 		setLayout(new BorderLayout());
 
 		panelNorte();

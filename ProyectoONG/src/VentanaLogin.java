@@ -57,18 +57,18 @@ public class VentanaLogin extends JDialog {
 		setVisible(true);
 	}
 
-	public void crearVista(String cmd, String fichero) {
+	public void crearVista(String cmd) /*, String fichero*/{
 
 		panel = new JPanel();
 		panel.setLayout(null);
 
 		MyJtextField tf = new MyJtextField();
-		tf.setBounds(90, 50, 280, 23);
+		tf.setBounds(20, 50, 280, 23);
 		tf.setPlaceHolder("Nombre");
 		panel.add(tf);
 
 		MyJPasswordField passwordField = new MyJPasswordField();
-		passwordField.setBounds(90, 90, 280, 23);
+		passwordField.setBounds(20, 90, 280, 23);
 		passwordField.setPlaceHolder("Contraseña");
 		panel.add(passwordField);
 
