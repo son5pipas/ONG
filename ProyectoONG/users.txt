@@ -1,3 +1,0 @@
-1;son5pipas;papafrita;Calle Luna, Majadahonda;83;false;99;photoPerfil/pipas.jpg;
-2;glez;glezglez;Calle Tajo, Villaviciosa de Odón;85;false;99;photoPerfil/foto1.jpg;
-3;tupe;gaditian;Avenida Principe de Asturias, Villaviciosa de Odón;84;false;99;photoPerfil/FotoTupetaso.jpg;

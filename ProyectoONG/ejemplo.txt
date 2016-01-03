@@ -1,2 +1,0 @@
-ersPath=.//data//Users/josel/Documents/workspace/ONGV2.3/users.txt
-bankPath=.//data//Users/josel/Documents/workspace/ONGV2.3/dataBank.txt
