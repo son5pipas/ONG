@@ -1,0 +1,11 @@
+1;Anonimo;Anonimo;Anonimo;0;false;Hombre;10;image/hombre.jpg
+2;son5pipas;papafrita;Calle Luna, Majadahonda;85;false;Hombre;99;photoPerfil/pipas.jpg
+3;glez;123;Calle Tajo, Villaviciosa de Od�n;88;false;Hombre;99;photoPerfil/foto1.jpg
+4;tupe;gaditian;Avenida Principe de Asturias, Villaviciosa de Od�n;84;false;Hombre;99;photoPerfil/FotoTupetaso.jpg
+5;moni;holi;null;99;false;Mujer;10;photoPerfil/monica.jpg
+6;asdf;qw;null;50;false;Hombre;10;image/hombre.jpg
+7;Tony;asdf;calle Luna;50;false;Hombre;10;image/hombre.jpg
+8;alo;alo;null;50;false;Mujer;10;image/mujer.jpg
+9;jkl;l;null;50;false;Hombre;10;image/hombre.jpg
+10;Alberto;qw;AvenidaPrincipe de asturias;50;false;Hombre;10;image/kenny.jpg
+11;glezmo;glezmo;null;50;false;Mujer;10;photoPerfil/bob.jpg

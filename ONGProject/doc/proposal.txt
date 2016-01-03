@@ -1,0 +1,12 @@
+1;por un mundo unidos;somos los que eramos ayer;image/crow.jpg;4;-1,7,8,9,11,43,;-1,4,5,6,;false
+2;por la lavadora;somos los que eramos ayer;image/crow.jpg;2;-1,4,5,6,4,5,6,4,5,6,4,5,6,;-1,9,8,6,;false
+3;por los macarrones;somos los que eramos ayer;image/crow.jpg;1;-1,7,8,9,4,5,6,1,;-1,4,5,6,1,;false
+4;por el hormiguero;somos los que eramos ayer;image/crow.jpg;3;-1,4,5,6,5,6,7,4,5,6,5,;-1,9,8,6,1,;false
+5;por el nuevo iphone;somos los que eramos ayer;image/crow.jpg;4;-1,0,1,1,1,1,1,7,8,9,;-1,4,5,6,;false
+6;por un mac nuevo;somos los que eramos ayer;image/crow.jpg;2;-1,1,1,1,4,5,6,;-1,9,8,6,;false
+7;por topoyotilla;somos los que eramos ayer;image/crow.jpg;1;-1,2,2,2,2,7,8,9,1,;-1,4,5,6,1,;false
+8;por todos;somos los que eramos ayer;image/crow.jpg;3;-1,8,8,8,8,8,4,5,9,;-1,9,8,6,;false
+9;por mi pobre pc;somos los que eramos ayer;image/crow.jpg;2;-1,2,2,2,2,7,8,9,;-1,4,5,6,;false
+10;a;a;/Users/josel/Documents/workspace/ONGV2.6.1/image/crow2.jpg;2;-1,;-1,1,;false
+11;sdf;sdfg;/Users/josel/Documents/workspace/ONGV2.6.1/image/crow2.jpg;1;-1,1,2,3,4,;-1,5,6,7,8,1,;false
+12;abanico;tururu;/Users/josel/Documents/workspace/ONGV2.6.1/image/crow2.jpg;1;-1,;-1,1,;false
